@@ -42,17 +42,17 @@ The graph workspace plots the simulation continuously. The angle–time graph ma
 
 ## Physics Model
 
-For an ideal pendulum of length \(L\), released through a small angle in a gravitational field \(g\), the theoretical period is
+For an ideal pendulum of length **L**, released through a small angle in a gravitational field **g**, the theoretical period is:
 
-\[
-T_0 = 2\pi\sqrt{\frac{L}{g}}
-\]
+```text
+T₀ = 2π√(L/g)
+```
 
-The simulator also accounts for nonlinear motion at larger angles, where the small-angle approximation becomes less accurate. The motion is governed by
+The simulator also accounts for nonlinear motion at larger angles, where the small-angle approximation becomes less accurate. The motion is governed by:
 
-\[
-\frac{d^2\theta}{dt^2} + \frac{g}{L}\sin(\theta) = 0
-\]
+```text
+d²θ/dt² + (g/L)sin(θ) = 0
+```
 
 The central experimental predictions are:
 
@@ -77,7 +77,7 @@ The central experimental predictions are:
 
 ### Effect of pendulum length
 
-Keep mass, gravity and release angle constant. Change the length and determine how \(T^2\) varies with \(L\).
+Keep mass, gravity and release angle constant. Change the length and determine how **T²** varies with **L**.
 
 ### Effect of bob mass
 
