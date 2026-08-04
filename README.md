@@ -1,5 +1,7 @@
 # Dinglo Simple Pendulum Simulator
 
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-2ea44f)](CONTRIBUTING.md)
+
 <p align="center">
   <strong>Interactive Physics Laboratory</strong><br>
   A browser-based virtual laboratory for exploring simple pendulum motion through direct experimentation, live measurements and real-time graphs.
@@ -122,3 +124,7 @@ After using the simulator, a learner should be able to:
 Copyright © 2026 Mangena Kegorapetse. All rights reserved.
 
 Dinglo, its interface design, visual identity, documentation and simulator assets may not be copied, redistributed or sold without written permission from the developer.
+
+## Contributing
+
+Bug reports, physics-validation notes, accessibility improvements and documentation corrections are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a change. Contributions do not grant permission to redistribute or resell the complete simulator.
